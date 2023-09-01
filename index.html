@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>admission form</title>
+    </head>
+    <body>
+        <form class="from">
+        <h1 align="center">ADMISSION FORM</h1>
+        <label>Search:</label>
+        <input type="search" placeholder="Search for Something">
+        <br><br>
+        <label>Name:</label>
+        <input type="text" placeholder="first Name" required>
+        <input type="text" placeholder= "last Name" required> 
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" required>
+        <br><br>
+        <label>Date of birth</label>
+        <input type="date">
+        <br><br>
+        <label>Phone:</label>
+        <input type="tel" placeholder="017********" required>
+        <br><br>
+        <label>Age:</label>
+        <input type="number" placeholder="Enter your Age" min="18" required>
+        <br><br>
+        <label>Address:</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea>
+        <br><br>
+        <label>Education:</label>
+        <select>
+            <option>JSC</option>
+            <option>SSC</option>
+            <option>HSC</option>
+        </select><br><br>
+        <label>Favourite colour:</label>
+        <input type="color" placeholder="Enter your Favourite color">
+        <br><br>
+        <label>Blood Group</label>
+        <select>
+            <optgroup label="Positive">
+                <option value="A+" selected>A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+            </optgroup>
+            <optgroup label="Negative">
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Hobbies:</legend>
+            <label>Danceing</label>
+            <input type="checkbox">
+            <label>singing</label>
+            <input type="checkbox">
+            <label>Book Reading</label>
+            <input type="checkbox">
+            <label>Traveling</label>
+            <input type="checkbox">
+        </fieldset>
+        <br><br>
+        <label>Date & Time:</label>
+        <input type="datetime-local">
+        <br><br>
+        <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Other">
+        <label for="Other">Other</label>
+        </fieldset>
+        <br><br>
+        <label>Course:</label>
+        <select>
+            <option value="Web Design">Web Design</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Ms Office Application">Ms Office Application</option>
+        </select>
+        <br><br>
+        <label>Course fee (10/15$):</label><br>
+        <input type="range">
+        <br><br>
+        <label>File</label>
+        <input type="file" multiple accept="">
+        <br><br>
+        <label>Add URL:</label>
+        <input type="url" placeholder="Enter a url">
+        <br><br>
+        <label>Comments:</label>
+        <textarea id="Comments" name="" cols="30" rows="3" placeholder="Enter your valueable Comments"></textarea>
+        <br><br>
+        <label for="Agreement">I Agree to the terms and condition:</label>
+        <input type="checkbox" required>
+        <br><br>
+        <input type="reset" placeholder="reset">
+        <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
